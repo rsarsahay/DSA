@@ -26,7 +26,7 @@ public:
             else if (e.second > tMax)
             {
                 tMax = e.second;//max frequency
-                ans.push_back(e.first);//push max frequency element in vector
+                ans={e.first};//push max frequency element in vector
             }
         }
         return ans;
